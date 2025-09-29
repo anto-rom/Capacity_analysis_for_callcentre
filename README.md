@@ -2,9 +2,6 @@
 # Capacity & Language Staffing Forecast – README
 
 This repository contains a production-ready Python script (`prophet_forecast_v4.py`) to forecast daily workload, plan capacity scenarios, and compute language staffing requirements. It uses Facebook Prophet (now `prophet`) for time-series forecasting, includes robust weekday-specific RR% estimation, shrinkage-aware capacity scenarios, and generates two Excel workbooks with charts and a scenario picker.
-
-> **Nota (ES):** Este README está en **inglés** para alinearse con los comentarios del código. Si prefieres, puedo generar una versión en **español**.
-
 ---
 
 ## Table of Contents
