@@ -1,0 +1,20 @@
+# Requirements
+
+
+import os
+import math
+import warnings
+from dataclasses import dataclass
+from typing import Dict, Tuple, List, Optional
+import numpy as np
+import pandas as pd
+from prophet import Prophet
+
+# Plotting and embedding charts into Excel
+import matplotlib.pyplot as plt
+import seaborn as sns
+from matplotlib.dates import AutoDateLocator, ConciseDateFormatter
+from openpyxl import load_workbook
+from openpyxl.drawing.image import Image as XLImage
+from openpyxl.worksheet.datavalidation import DataValidation
+warnings.filterwarnings("ignore", category=FutureWarning)
